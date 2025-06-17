@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# This plugin helps Netlify understand and build Next.js sites correctly,
+# handling features like SSR, ISR, API routes, and image optimization.
+# It's often auto-detected, but explicitly adding it is good practice.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
